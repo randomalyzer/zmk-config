@@ -1,0 +1,5 @@
+# Copyright 2020 The ZMK Contributors
+# SPDX-Liscense-Idenfifier: MIT
+
+config SHIELD_CRBN
+	def_bool $(shields_list_contains,crbn)
