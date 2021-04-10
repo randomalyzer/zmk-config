@@ -51,10 +51,26 @@
 		control {
 			bindings = <
 				&reset &bootloader &bt BT_CLR &bt BT_PRV &bt BT_NXT &trans &trans &trans &trans &trans &trans &trans
-				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+				&trans &trans &trans &trans &trans &trans &trans &trans &to 0  &to 4  &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 			>;
+		};
+		
+		workman {
+				// -----------------------------------------------------------------------------------------
+				// |  TAB  |  Q   |  D   |  R   |  W   |  B   |   J   |  F    |  U   |  P   |  DEL  | BSPC  |
+				// |  ESC  |  A   |  S   |  H   |  T   |  G   |   Y   |  N    |  E   |  O   |   I   |  RET  |
+				// | SHIFT |  Z   |  X   |  M   |  C   |  V   |   K   |  L    | RALT | HOME |   UP  |  END  |
+				// | LCTL  | LGUI | LALT | LOWR | SHIFT| RAIS |     SPACE     | ALTR | LEFT | DOWN  | RIGHT |
+			bindings = <
+				&kp TAB   &kp Q    &kp D    &kp E &kp R      &kp W  &kp J   &kp F      &kp U      &kp P     &kp DEL   &kp BSPC
+				&kp ESC   &kp A    &kp S    &kp H &kp T      &kp G  &kp Y   &kp N      &kp E      &kp O     &kp I     &kp RET
+				&kp LSHFT &kp Z    &kp X    &kp M &kp C      &kp V  &kp K   &kp L      &kp RALT   &kp HOME  &kp UP    &kp END
+				&kp LCTRL &kp LGUI &kp LALT &mo 1 &kp LSHFT  &mo 2  &trans  &kp SPACE  &mo 3      &kp LEFT  &kp DOWN  &kp RIGHT
+			>;
+
+			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
 		};
 	};
 };
