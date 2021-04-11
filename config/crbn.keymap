@@ -37,7 +37,7 @@
 				&kp TAB   &kp Q    &kp D    &kp R &kp W      &kp B  &kp J   &kp F      &kp U      &kp P     &kp DEL   &kp BSPC
 				&kp ESC   &kp A    &kp S    &kp H &kp T      &kp G  &kp Y   &kp N      &kp E      &kp O     &kp I     &kp RET
 				&kp LSHFT &kp Z    &kp X    &kp M &kp C      &kp V  &kp K   &kp L      &kp RALT   &kp HOME  &kp UP    &kp END
-				&kp LCTRL &kp LGUI &kp LALT &mo 1 &kp LSHFT  &mo 2  &trans  &kp SPACE  &mo 3      &kp LEFT  &kp DOWN  &kp RIGHT
+				&kp LCTRL &kp LGUI &kp LALT &mo 3 &kp LSHFT  &mo 4  &trans  &kp SPACE  &mo 5      &kp LEFT  &kp DOWN  &kp RIGHT
 			>;
 
 		};
@@ -53,7 +53,7 @@
 				&kp TAB   &kp Q    &kp W    &kp F &kp P      &kp G  &kp J   &kp L      &kp U      &kp Y     &kp DEL   &kp BSPC
 				&kp ESC   &kp A    &kp R    &kp S &kp T      &kp D  &kp H   &kp N      &kp E      &kp I     &kp O     &kp RET
 				&kp LSHFT &kp Z    &kp X    &kp C &kp V      &kp B  &kp K   &kp M      &kp RALT   &kp HOME  &kp UP    &kp END
-				&kp LCTRL &kp LGUI &kp LALT &mo 1 &kp LSHFT  &mo 2  &trans  &kp SPACE  &mo 3      &kp LEFT  &kp DOWN  &kp RIGHT
+				&kp LCTRL &kp LGUI &kp LALT &mo 3 &kp LSHFT  &mo 4  &trans  &kp SPACE  &mo 5      &kp LEFT  &kp DOWN  &kp RIGHT
 			>;
 
 		};
