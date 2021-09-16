@@ -18,6 +18,10 @@
 #define RAIS 5
 #define ALTR 6
 
+&kscan0 {
+    debounce-period = <20>;
+};
+
 / {
 	keymap {
 		compatible = "zmk,keymap";
