@@ -19,7 +19,7 @@
 #define ALTR 6
 
 &kscan0 {
-    debounce-period = <30>;
+    debounce-period = <10>;
 };
 
 / {
