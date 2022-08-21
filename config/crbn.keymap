@@ -76,8 +76,9 @@
 				// -----------------------------------------------------------------------------------------
 				// |  ESC  |  1   |  2   |  3   |  4   |  5   |   6   |  7    |  8   |  9   |  DEL  | BSPC  |
 				// |  TAB  |  Q   |  W   |  E   |  R   |  T   |   Y   |  U    |  I   |  O   |   P   | BSPC  |
-				// |  ESC  |  A   |  S   |  D   |  F   |  G   |   C   |  J    |  K   |  L   |   ;   |  RET  |
-				// | SHIFT |  Z   |  X   | LALT | SPACE|  H   |     KP 0      |  F8  | LEFT | DOWN  | ALTR  |
+				// |  SHIFT|  A   |  S   |  D   |  F   |  G   |   C   |  J    |  K   |  L   |   ;   |  RET  |
+				// |  CTRL |  Z   |  X   | LALT | SPACE|  H   |     KP 0      |  F8  | LEFT | DOWN  | ALTR  |
+				
 			bindings = <
 				&kp ESC   &kp N1   &kp N2 &kp N3   &kp N4     &kp N5 &kp N6 &kp N7    &kp N8 &kp N0    &kp DEL   &kp BSPC
 				&kp TAB   &kp Q    &kp W  &kp E    &kp R      &kp T  &kp Y  &kp U     &kp I  &kp O     &kp P     &kp RET
@@ -88,6 +89,12 @@
 		};
 
 		lower {
+				// -----------------------------------------------------------------------------------------
+				// |   ~   |  !   |  @   |  #   |  $   |  %   |   ^  |  &   |  *   |  (   |   )   |  DEL  |
+				// |  CAPS |      |  _   |  :   |  "   |      |      |  <   |  >   |  /   |   +   |   |   |
+				// |   F1  |  F2  |  F3  |  F4  |  F5  |  F6  |  F7  |  F8  |  F9  |  F10 |  F11  |  F12  |
+				// |   BT  |  BT  |  BT  |      |  BT  |  BT  |    SPACE    |      | Prev | Pause |  Next |
+				
 			bindings = <
 				&kp LS(GRAVE) &kp LS(N1)   &kp LS(N2)   &kp LS(N3) &kp LS(N4) &kp LS(N5) &kp LS(N6) &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp LS(N0) &kp DEL
 				&kp CAPS      &none        &kp UNDER    &kp COLON  &kp DQT    &none      &none      &kp LT     &kp GT     &kp FSLH   &kp PLUS   &kp PIPE
@@ -98,6 +105,12 @@
 		};
 
 		raise {
+				// -----------------------------------------------------------------------------------------
+				// |  `    |  1   |  2   |  3   |  4   |  5   |   6   |  7    |  8   |  9   |   0   | BSPC  |
+				// |  CAPS |      |  -   |  ;   |  '   |      |       |  ,    |  .   |  ?   |   =   |   \   |
+				// | SHIFT |      |      |  {   |  }   |      |       |  [    |  ]   |      |       |       |
+				// | RGB   |      |      |      |      |      |     SPACE     |      | VolDn| Mute  | VolUp |
+				
 			bindings = <
 				&kp GRAVE       &kp N1            &kp N2     &kp N3   &kp N4   &kp N5 &kp N6 &kp N7    &kp N8   &kp N9       &kp N0     &kp BSPC
 				&kp CAPS        &none             &kp MINUS  &kp SEMI &kp SQT  &none  &none  &kp COMMA &kp DOT  &kp QMARK    &kp EQUAL  &kp BSLH
